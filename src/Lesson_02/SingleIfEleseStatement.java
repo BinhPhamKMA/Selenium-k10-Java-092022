@@ -17,6 +17,12 @@ public class SingleIfEleseStatement {
         //Comparision Operator : ==, !=, >, < ,>=,<= Toan tu so sanh
         boolean isHeOnTime = (arrivalTime == EXPECTED_TIME) ;
 
+        // Toan tu 3 ngoi - Ternaty operator
+        //boolean isHeOnTime = arrivalTime ==EXPECTED_TIME ? true : false;
+
+
+        ////
+
         System.out.println("1. Dat xe ra ");
         System.out.println("2. Chay toi quan");
 
